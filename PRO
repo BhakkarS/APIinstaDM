@@ -1,6 +1,7 @@
-LOGIN_USERNAME=//input[@name='username']
-LOGIN_PASSWORD=//input[@name='password']
-LOGIN_BUTTON=//button[@type='submit']
+LOGIN_USERNAME=//*[@id="loginForm"]/div[1]/div[1]/div/label/input
+LOGIN_PASSWORD=//*[@id="loginForm"]/div[1]/div[2]/div/label/input
+LOGIN_BUTTON=//*[@id="loginForm"]/div[1]/div[3]
+
 
 GET_FOLLOWERS_BUTTON=//*[@id="mount_0_0_Ab"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[2]/div/a/span
 GET_FOLLOWERS_SCROLL=/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
