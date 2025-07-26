@@ -1,33 +1,16 @@
-For Getting Follower List
-Got to user name url
-spose user is 'alizareba'
-click at user name
-then click at follower and click at follower xpath
-follower xpath is
-//*[@id="mount_0_0_Ab"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[2]/div/a/span
+LOGIN_USERNAME=//input[@name='username']
+LOGIN_PASSWORD=//input[@name='password']
+LOGIN_BUTTON=//button[@type='submit']
 
-after that scroll down the list of users
-scroll down xpath is
-/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
+GET_FOLLOWERS_BUTTON=//*[@id="mount_0_0_Ab"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[2]/div/a/span
+GET_FOLLOWERS_SCROLL=/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
+GET_FOLLOWERS_USERNAME=/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
 
-and copy all user names 
-username xpath is 
-/html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
+GET_FOLLOWING_BUTTON=//*[@id="mount_0_0_uU"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[3]/div/a/span
+GET_FOLLOWING_SCROLL=/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
+GET_FOLLOWING_USERNAME=/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[6]/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
 
-
-Get Following:
-open profile url
-Click at 'Get Following' 
-get following xpath is
-//*[@id="mount_0_0_uU"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[3]/div/a/span
-
-then scrol down
-Scroldown xpath is
-/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
-
-then Copy usernames
-User name xpath is
-/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[6]/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
-//
-
-
+MSG_FOLLOW_BUTTON=//*[@id="mount_0_0_uU"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[2]/div/div/div[2]/div/div/button
+MSG_MESSAGE_BUTTON=//*[@id="mount_0_0_uU"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[2]/div/div/div[2]/div/div[2]/div
+MSG_INPUT=//*[@id="mount_0_0_uU"]/div/div/div[3]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div[1]/p
+MSG_SEND_BUTTON=//*[@id="mount_0_0_uU"]/div/div/div[3]/div/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[3]
