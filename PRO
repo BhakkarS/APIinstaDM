@@ -1,5 +1,4 @@
 For Getting Follower List
-
 Got to user name url
 spose user is 'alizareba'
 click at user name
@@ -15,5 +14,20 @@ and copy all user names
 username xpath is 
 /html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
 
+//
+Get Following:
+open profile url
+Click at 'Get Following' 
+get following xpath is
+//*[@id="mount_0_0_uU"]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/section/main/div/header/section[3]/ul/li[3]/div/a/span
+
+then scrol down
+Scroldown xpath is
+/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]
+
+then Copy usernames
+User name xpath is
+/html/body/div[6]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div[6]/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
+//
 
 
