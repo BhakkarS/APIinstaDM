@@ -14,7 +14,7 @@ and copy all user names
 username xpath is 
 /html/body/div[5]/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[2]/div/div/div/div/span/div/a/div/div/span
 
-//
+
 Get Following:
 open profile url
 Click at 'Get Following' 
